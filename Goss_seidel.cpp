@@ -1,11 +1,11 @@
 # include <stdio.h>
 # include <math.h>
 #define max 20
-main(){
+int main(){
 	int n,m,i,j,k;
 	float a[max][max],x[max],s;
 	printf("Order of the matrix and iteration: ");
-	scanf("%d%d",&n,&m);
+	scanf("%d,%d",&n,&m);
 	printf("\n Enter the elements of augmented matrix: ");
 	for(i=1;i<=n;i++){
 	for(j=1;j<=n+1;j++){
